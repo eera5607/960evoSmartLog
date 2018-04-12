@@ -53,7 +53,7 @@ NC='\033[0m'
 
 if [ $WRITTENUNITSCONV2 -gt 200000 ]
 then
-echo -e "Written data units are ${COLOR2}$WRITTENUNITSCONV2 gigabytes${NC} so the SSD not cover by Samsung's warranty anymore (200 Terabytes Written)." 
+echo -e "Written data units are ${COLOR2}$WRITTENUNITSCONV2 gigabytes${NC} so the SSD is not cover by Samsung's warranty anymore (200 Terabytes Written)." 
 else
 echo -e "Written data units are ${COLOR1}$WRITTENUNITSCONV2 gigabytes${NC} and SSD is still cover by Samsung's warranty (200 Terabytes Written)." 
 fi
