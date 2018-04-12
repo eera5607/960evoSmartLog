@@ -6,7 +6,7 @@ Short script to retrieve written and read data units, temperatures and number of
 
 Since the script needs direct hardware access you should run it with 'sudo' or as root.
 
-The script is created to read the info from `/dev/nvme0n1` but you can change that according to your needs. You can list all compatible devices available using:
+The script was created to read the info from `/dev/nvme0n1` but you can change that according to your needs. You can list all compatible devices available using:
 
 `sudo nvme list`
 
