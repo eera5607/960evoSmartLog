@@ -1,4 +1,4 @@
-# Samsung 960 EVO SmartLog
+Samsung 960 EVO SmartLog
 ===============
 Short script to retrieve written and read data units, temperatures and number of unsafe shutdowns from S.M.A.R.T for Samsung 960 EVO NVMe SSD on Linux using the `nvme-cli` package. The raw data is converted to understandable units.
 
