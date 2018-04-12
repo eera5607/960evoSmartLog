@@ -21,3 +21,5 @@ You can install it using:
 ### Additional info
 
 Samsung offers different warranty levels depending on capacity of the SSD. The warnings set on this script apply to the 500 GB model. 
+
+All conversions are made to show the exact same results as on Samsung Magician software for Windows. 
