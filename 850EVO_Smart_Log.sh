@@ -1,5 +1,5 @@
 #!/bin/bash
-#Reads and converts the output data "data_units_written" to gigabytes
+#Reads and converts the output data "Total_LBAs_Written" to gigabytes
 WRITTEN=$(sudo smartctl -a /dev/sda | grep "241")
 #IFS=': '
 STRINGWRITTEN=( $WRITTEN )
@@ -36,9 +36,9 @@ NC='\033[0m'
 
 if [ $WRITTENUNITSCONV2 -gt 150000 ]
 then
-echo -e "Written data units are ${COLOR2}$WRITTENUNITSCONV2 gigabytes${NC} and it is not cover by manufacters warranty(200 TBW)." 
+echo -e "Written data units are ${COLOR2}$WRITTENUNITSCONV2 gigabytes${NC} and it is not covered by manufacters warranty(150 TBW)." 
 else
-echo -e "Written data units are ${COLOR1}$WRITTENUNITSCONV2 gigabytes${NC} and it is cover by manufacters warranty (200 TBW)." 
+echo -e "Written data units are ${COLOR1}$WRITTENUNITSCONV2 gigabytes${NC} and it is covered by manufacters warranty (150 TBW)." 
 fi
 
 
